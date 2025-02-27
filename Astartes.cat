@@ -805,6 +805,21 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f01-895d-c365-484e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="16a9-a806-af33-b4bd" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94f5-f86c-9ff3-c520" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="8a3e-fbcb-5cfc-3367" childId="0dfe-bb49-8378-5397" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="0.5) Carcharodons - Extra Weapon" id="2be1-9a1c-d752-3a24" hidden="false">
@@ -1432,12 +1447,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ac8e-b80f-3ae9-8bc0" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3132-0eeb-5302-57ee" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="956b-31f1-dd44-67cc" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="6804-b228-859c-0ef9" name="Power Armour" hidden="false" collective="false" import="true" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4abf-c33f-a9ff-61a4" type="max"/>
@@ -2317,6 +2326,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0726-2f49-6e6d-a037" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="9caa-7efd-7e6f-d600" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50fc-3dde-181e-b656" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="b94f-4192-0adb-b0ff" childId="d0d4-cf3a-7a39-2fa6" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="b94f-4192-0adb-b0ff" childId="1f86-b935-2af3-c80b" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="0.1) Carcharodons - Extra Weapon" id="4ef2-1aea-d530-0d0b" hidden="false">
@@ -2676,12 +2701,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d043-efc3-982b-25fe" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d459-24fa-11dc-83f7" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac31-cbf1-531a-ca0b" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="d5f4-d968-68b2-b288" name="Power Armour" hidden="false" collective="false" import="true" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0848-ad63-dd7f-bfad" type="max"/>
@@ -3449,6 +3468,22 @@
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="b0a0-4451-5a6c-04ae" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d39-cf43-8e51-538a" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="9547-7fba-408b-91dc" childId="6067-77e5-eef1-1434" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="9547-7fba-408b-91dc" childId="cba4-49b8-03d1-cd7f" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="0.5) Carcharodons - Extra Weapon" id="cfcc-6605-ce30-4418" hidden="false">
@@ -3881,12 +3916,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fc7c-b19e-6d9c-ec4e" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ce-51e3-3cd0-61fd" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="518f-0081-8957-cdfb" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="149f-8c7f-37a0-6d4b" name="Power Armour" hidden="false" collective="false" import="true" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="493c-e0e6-7386-a954" type="max"/>
@@ -4860,6 +4889,22 @@
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="5"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="2b98-7f28-d7a4-e578" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a5d-bb2d-5fc1-592f" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="d6ad-6c5a-46d3-0343" childId="b399-634a-f414-f026" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="d6ad-6c5a-46d3-0343" childId="2403-be61-a378-7ca5" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="1) Exorcists - Asphyx Shells For Bolt Weapons" id="44c0-2036-7500-ad00" hidden="false">
@@ -5085,12 +5130,6 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2fdb-90b8-ec14-0068" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd5-027b-1c93-1498" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1219-3213-a498-2090" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="7f99-5a27-501e-e78a" name="Scout Armour" hidden="false" collective="false" import="true" targetId="b282-55aa-d1e2-ebe7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c36d-70ba-09e2-6e2c" type="max"/>
@@ -14263,6 +14302,21 @@
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="d3b4-afe9-8007-9cac" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="629a-02fd-2b19-aaae" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="8ba2-ea7b-a90e-36bf" childId="40ac-f969-9095-2d9f" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ce52-b97d-f558-1b4c" name="2) Ranged Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="28d1-a4ff-618d-85e7">
@@ -14982,6 +15036,12 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="7844-d1e8-8193-3d53" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="7341-8461-c583-4191" type="selectionEntry" targetId="3bd9-e813-aafb-59f9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dce6-5f5e-6306-1b5f" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1cd9-8035-cb47-1ba5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="9b5d-996f-8000-14f5" id="3a3b-2f3c-6795-8d8c" primary="true" name="Retinue"/>
@@ -17752,6 +17812,21 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c1f-1dcb-0f05-8810" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="ca04-55a2-0fcf-2d88" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6780-7296-f167-68d3" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="a921-21d2-1964-1e2d" childId="c1ef-398e-7e25-5879" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="1.5) Each Veteran Must Select 2:" id="2087-df45-2f9e-397f" hidden="false">
@@ -17869,6 +17944,21 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                   </conditionGroups>
                 </modifier>
               </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Company Standard" hidden="false" id="6aa2-4d02-6386-4e1b" type="selectionEntry" targetId="2be8-d5cc-4b03-2014">
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="a905-db51-7638-a025" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b619-564d-473e-fc1c" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -18411,7 +18501,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
             <entryLink import="true" name="Hellfire Rounds" hidden="false" id="731d-a8d3-36f4-e6be" type="selectionEntry" targetId="7e4d-66d0-9edc-9faf"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="1.1) Astral Claws - Veteran Retallators" id="ae02-92fd-3ecd-4302" hidden="false">
+        <selectionEntryGroup name="1.1) Astral Claws - Veteran Retaliators" id="ae02-92fd-3ecd-4302" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Veteran Retallators" hidden="false" id="a905-db51-7638-a025">
               <modifiers>
@@ -18432,6 +18522,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                     <modifier type="set" value="Fear (1)" field="name"/>
                   </modifiers>
                 </infoLink>
+                <infoLink name="Retinue" id="acef-d155-4240-4d2c" hidden="false" type="rule" targetId="44f8-daf1-b5f8-9f19"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30fe-106e-6438-9a7a" includeChildSelections="false"/>
@@ -18508,12 +18599,6 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="68ee-a8df-dd37-55f5" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1040-4414-9a51-a066" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="960c-e920-64a4-ffed" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Frag Grenades" hidden="false" id="c8ba-2f66-0c2c-4627" type="selectionEntry" targetId="3bd9-e813-aafb-59f9">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9eff-6d0b-fe82-9c09" includeChildSelections="false"/>
@@ -18551,8 +18636,18 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
           </conditionGroups>
         </modifier>
         <modifier type="add" value="9231-183c-b97b-63f9" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d784-438b-53be-81ce" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="a905-db51-7638-a025" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="remove" value="d471-a611-11c4-7f09" field="category">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="parent" childId="d784-438b-53be-81ce" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="a905-db51-7638-a025" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -18825,6 +18920,21 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="363a-6522-4dcd-74cf" includeChildSelections="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="7631-37bf-69e9-78aa" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a790-998a-5938-7184" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="4cc2-6eec-77d4-5165" childId="94cb-2428-de66-e118" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -19753,12 +19863,6 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eeeb-d6b6-5224-9974" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1333-eea0-1ae3-bc34" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="d858-089f-88fe-a6a9" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f88-cf0b-901a-5311" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="813c-82ed-37d5-0464" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="7e7b-dbc7-cb76-b3da" type="selectionEntry" targetId="09dd-c282-03ec-ad0e">
@@ -21168,6 +21272,41 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 </entryLink>
                 <entryLink import="true" name="Chapter Tactics" hidden="false" id="e670-0d48-a43c-9314" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
               </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Mortis Targeter" hidden="false" id="a39a-d378-2e1e-8248">
+                  <rules>
+                    <rule name="Mortis Targeter" id="751a-97a5-4bcc-347e" hidden="false">
+                      <description>The controlling player of a model with a Mortis Targeter may activate it at the start of any of their own turns, or, if the controlling player is not taking the first turn of the battle, at the start of the battle, before the beginning of the opposing player’s first turn. Once the Mortis Targeter is activated, the model is affected by the following conditions until the beginning of the controlling player’s next turn: 
+
+
+• The model may not move, Run or declare or make any Reactions other than the Interceptor or Overwatch Reaction.
+• The controlling player may choose to use the Skyfire special rule when making any Shooting Attacks with the model.
+• When the model makes a Shooting Attack as part of the Interceptor Reaction, the Reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0a1-bce5-e8f1-821d" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="5242-84f1-a710-0d8f" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="e93b-35f2-4b22-1f85" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="06b6-e075-cd0e-869d" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="6e37-a3dd-3c59-d3f5" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="6472-c32d-947c-5220" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ironclad Dreadnought" hidden="false" id="9be4-44f4-63d1-4858">
               <costs>
@@ -23914,12 +24053,6 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84af-29b5-5148-cbab" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="407b-1bcc-3d7f-608e" collective="false" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1678-ae90-f9a0-cb77" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78ec-c65f-b456-a0a4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="77ec-7d44-aede-9013" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
       </entryLinks>
       <selectionEntries>
@@ -24600,6 +24733,22 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a266-4154-4dbf-bc06" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="854d-7764-b851-3790" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efb2-aba9-ef67-7b3d" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="b769-b066-d315-9de4" childId="b670-4e31-f41f-0fb1" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="b769-b066-d315-9de4" childId="b8d9-0796-943f-ec40" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="4) Dedicated Transport:" id="03d4-3e3c-096a-7e00" hidden="false" collective="false" import="true">
@@ -25130,12 +25279,6 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36d3-5bc1-6dfa-673c" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="6f71-70d1-2fb1-1e0c" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9525-47e8-56cf-ad70" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce04-3048-d195-c37a" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Astartes Combat Bike" hidden="false" id="2457-8970-5111-a887" type="selectionEntry" targetId="b881-6b78-c77c-3400">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc73-541f-36ef-464c" includeChildSelections="false"/>
@@ -25149,6 +25292,22 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
           </constraints>
         </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="420a-24ed-8cc8-d504" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="1750-3c59-361e-5d60" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f8c-2a55-a7cf-1259" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="95a7-ebc6-07a7-f651" childId="95c0-bb97-feb2-e1e4" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="95a7-ebc6-07a7-f651" childId="7613-41cc-c41f-89cb" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="45"/>
@@ -25186,6 +25345,7 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
                 <modifier type="increment" value="1" field="794d-e926-7c0a-a16d">
                   <repeats>
                     <repeat value="3" repeats="1" field="selections" scope="95a7-ebc6-07a7-f651" childId="95c0-bb97-feb2-e1e4" shared="true" roundUp="false" includeChildSelections="true"/>
+                    <repeat value="1" repeats="1" field="selections" scope="95a7-ebc6-07a7-f651" childId="7613-41cc-c41f-89cb" shared="true" roundUp="false" includeChildSelections="true"/>
                   </repeats>
                 </modifier>
               </modifiers>
@@ -25752,6 +25912,18 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9aeb-a08b-a549-af37" includeChildSelections="false"/>
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d7bd-7bc2-ccf7-61f1" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="9aeb-a08b-a549-af37">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7613-41cc-c41f-89cb" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="d7bd-7bc2-ccf7-61f1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="7613-41cc-c41f-89cb" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="1.5) Carcharodons - Extra Weapon" id="8615-d67f-6d8e-8060" hidden="false">
           <entryLinks>
@@ -26122,12 +26294,6 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1687-310e-ea6e-9349" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="9fb0-27af-0c34-e174" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c47b-946b-ba0a-98c5" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="241e-2c41-1d8f-3755" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Astartes Combat Bike" hidden="false" id="09c4-4e66-ab27-c49a" type="selectionEntry" targetId="b881-6b78-c77c-3400">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66f0-8692-212e-247d" includeChildSelections="false"/>
@@ -26141,6 +26307,21 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
           </constraints>
         </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="edd2-1e59-38e0-ce4e" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="5fa3-d447-42b1-40de" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6433-7e76-402d-dffc" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="089f-7f15-f7d1-5f42" childId="e109-c930-7b7a-248e" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="31"/>
@@ -28282,7 +28463,7 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="435d-133c-2311-6a76" type="selectionEntry" targetId="3e85-dece-bc8c-47e0">
+        <entryLink import="true" name="Twin-linked Autocannons" hidden="false" id="435d-133c-2311-6a76" type="selectionEntry" targetId="5376-ac6e-3ffb-dff7">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be58-aac8-2ba1-7628" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49cf-6bda-1e4b-15c0" includeChildSelections="false"/>
@@ -28791,12 +28972,6 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7ac-84f1-31bf-cb5d" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d044-e750-e59c-8075" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="45a2-3794-96f3-ca45" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce74-3704-4d16-601a" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="568b-7b55-19c0-f2ab" includeChildSelections="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="95c2-330b-e6c6-aa5d" type="selectionEntry" targetId="09dd-c282-03ec-ad0e">
@@ -30012,9 +30187,14 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
               </constraints>
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
-                  <conditions>
-                    <condition type="notEqualTo" value="4" field="selections" scope="parent" childId="5507-b432-3b4c-df12" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="notEqualTo" value="4" field="selections" scope="parent" childId="5507-b432-3b4c-df12" shared="true" includeChildSelections="true"/>
+                        <condition type="greaterThan" value="5" field="selections" scope="parent" childId="4d0c-e757-85ea-3c87" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="increment" value="10" field="7992-13c8-e552-57c1">
                   <repeats>
@@ -30096,6 +30276,25 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
           </modifiers>
           <entryLinks>
             <entryLink import="true" name="Hellfire Rounds" hidden="false" id="d646-d9e6-b88d-92bf" type="selectionEntry" targetId="7e4d-66d0-9edc-9faf"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Wargear" id="8289-6062-8a34-0c0f" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="4894-b08a-26df-b926" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee8d-20e3-5cad-7f75" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="cc50-f04a-0cd6-e966" childId="4d0c-e757-85ea-3c87" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -31330,6 +31529,34 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="b2ec-b3ad-c672-8de4" shared="true" includeChildSelections="true"/>
               </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Relic of the Chapter" hidden="false" id="dec4-9f4d-d8e1-8963" type="selectionEntry" targetId="b6ad-296c-4584-e676">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="3d1d-791c-4e69-7070" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="64d6-784f-2821-ae4a" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="3d1d-791c-4e69-7070">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a25f-20f6-e0d7-7348" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7c47-e2e9-dc42-e838" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="1" field="64d6-784f-2821-ae4a">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a25f-20f6-e0d7-7348" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7c47-e2e9-dc42-e838" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -32846,31 +33073,35 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
               </costs>
-              <infoGroups>
-                <infoGroup name="Icarus Stormcannon Array" id="4c1e-561d-b96c-58e1" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7550-9b8f-d522-6afc" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Two Turret Mounted Icarus Stormcannons" hidden="false" id="37aa-a9a5-900b-1a9e">
                   <profiles>
-                    <profile name="Icarus Stormcannon Array" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="4596-5e15-2644-d1c4">
+                    <profile name="Icarus Stormcannon" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="26d0-1dbf-6777-ad2f">
                       <characteristics>
-                        <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">7</characteristic>
-                        <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">4</characteristic>
-                        <characteristic name="AP" typeId="d24d-64be-92be-d248">Heavy 4, Rending (6+), Skyfire</characteristic>
-                        <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0"/>
+                        <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">48</characteristic>
+                        <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">7</characteristic>
+                        <characteristic name="AP" typeId="d24d-64be-92be-d248">4</characteristic>
+                        <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 3, Rending (6+), Skyfire, Interceptor</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Skyfire" id="a57a-9be7-a140-a287" hidden="false" type="rule" targetId="2ba7-1d21-4c3d-f6a5"/>
-                    <infoLink name="Rending (X)" id="72de-541a-bfd0-662b" hidden="false" type="rule" targetId="2e92-b54a-1bc2-8b3e">
+                    <infoLink name="Rending (X)" id="5145-70fc-b94e-5c8d" hidden="false" type="rule" targetId="2e92-b54a-1bc2-8b3e">
                       <modifiers>
                         <modifier type="set" value="Rending (6+)" field="name"/>
                       </modifiers>
                     </infoLink>
+                    <infoLink name="Skyfire" id="cb99-48f1-2b41-27fe" hidden="false" type="rule" targetId="2ba7-1d21-4c3d-f6a5"/>
                   </infoLinks>
-                </infoGroup>
-              </infoGroups>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7550-9b8f-d522-6afc" includeChildSelections="false"/>
-              </constraints>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f604-1f6e-fbc0-550a" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd9d-9c8b-86ee-26e0" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <profiles>
@@ -32916,7 +33147,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
             </profile>
           </profiles>
           <infoGroups>
-            <infoGroup name="Skyspear Missile Launcher" id="b8a9-1144-cc2e-8857" hidden="false">
+            <infoGroup name="One Turret Mounted Skyspear Missile Launcher" id="b8a9-1144-cc2e-8857" hidden="false">
               <profiles>
                 <profile name="Skyspear Missile Launcher" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="1639-d4e9-15de-af9c">
                   <characteristics>
@@ -32945,6 +33176,9 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
               </modifiers>
             </infoGroup>
           </infoGroups>
+          <infoLinks>
+            <infoLink name="Power of the Machine Spirit" id="f6d7-3b2e-2e44-caa1" hidden="false" type="rule" targetId="b1f3-6a8d-4a6f-8c34"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -35818,7 +36052,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
             <characteristic name="Side" typeId="a8b7-4b00-bdfd-8c74">14</characteristic>
             <characteristic name="Rear" typeId="6e9c-0884-6cab-a10c">14</characteristic>
             <characteristic name="HP" typeId="5ab6-c2c2-2362-513f">5</characteristic>
-            <characteristic name="Transport Capacity" typeId="7ec7-c2e6-e22e-9655">6*</characteristic>
+            <characteristic name="Transport Capacity" typeId="7ec7-c2e6-e22e-9655">12*</characteristic>
             <characteristic name="Access Points" typeId="eda2-3f5e-7bc2-8219">Two access points on the front of it&apos;s hull</characteristic>
           </characteristics>
         </profile>
@@ -35839,14 +36073,14 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="dec5-f766-c36e-dbbf" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Siege Melta Array" hidden="false" id="2ce9-2da1-117a-fe1f">
+        <selectionEntry type="upgrade" import="true" name="Centerline Magna-melta Cannon" hidden="false" id="2ce9-2da1-117a-fe1f">
           <profiles>
-            <profile name="Siege Melta Array" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="8f84-bf99-cb86-9398">
+            <profile name="Magna-melta Cannon" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="8f84-bf99-cb86-9398">
               <characteristics>
-                <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">12&quot;</characteristic>
+                <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">36&quot;</characteristic>
                 <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">8</characteristic>
                 <characteristic name="AP" typeId="d24d-64be-92be-d248">1</characteristic>
-                <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 5, Armourbane (Melta), Twin-linked</characteristic>
+                <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 3, Armourbane (Melta), Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -35872,9 +36106,12 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
 
 In addition, the Caestus has an invulnerable save of 5+ against any attacks against its Front armour, including any damage it suffers as a result of carrying out a ram or being rammed itself from the front.</description>
         </rule>
+        <rule name="Misericord" id="0185-f6fb-3d65-4a37" hidden="false">
+          <description>The Caestus Assault Ram has a transport capacity of 12 models, but counts any models with the Bulky (X) Special rule as one less than usual. Meaning it could fit 12 terminator armoured marines within it, or up to 4 centurion-armoured marines. It may not however transport Jump Infantry.</description>
+        </rule>
       </rules>
       <costs>
-        <cost name="Pts" typeId="7992-13c8-e552-57c1" value="305"/>
+        <cost name="Pts" typeId="7992-13c8-e552-57c1" value="325"/>
       </costs>
       <infoLinks>
         <infoLink name="Deep Strike" id="12a1-1c95-d000-9336" hidden="false" type="rule" targetId="e8a1-d7ca-d389-f158"/>
@@ -36757,6 +36994,21 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="1696-ca9c-4219-2232" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e84-b8e5-b3c5-bae1" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="adc6-ad85-64b6-dec1" childId="40ac-f969-9095-2d9f" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -38021,6 +38273,21 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="7e80-604f-2076-3da0" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a6e-b203-de92-402c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="8026-ddea-ae5c-4467" childId="29e2-47f1-a87f-0c95" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="6) Dedicated Transport" id="3139-5a79-87b0-450b" hidden="false" collective="false" import="true">
@@ -38140,6 +38407,12 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="a0c8-60c0-90a3-64f8" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="cb08-3b29-5da2-403e" type="selectionEntry" targetId="3bd9-e813-aafb-59f9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ce9-69ee-fa23-453e" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1631-7292-4024-656a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Enochian Guard Exists" hidden="false" id="c931-9f45-c9fb-a65c"/>
@@ -38774,7 +39047,7 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="a622-ac16-581e-456d" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="1.3) Unit Options" id="8b51-27c6-6988-b5cd" hidden="false" collective="false" import="true">
+        <selectionEntryGroup name="1.3) Wargear" id="8b51-27c6-6988-b5cd" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink import="true" name="Auspex" hidden="false" id="678d-ee19-123a-7579" collective="false" targetId="44bc-4848-60e9-2ff5" type="selectionEntry">
               <constraints>
@@ -38806,6 +39079,21 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="d062-b20b-1d8b-089f" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f30e-4821-88d9-78f7" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="cec7-7717-8ece-6ad7" childId="f21a-0c89-94b4-b9e1" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -38904,6 +39192,12 @@ mounted weapons against any model with the Flyer Sub-Type that fired at it.</des
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4085-7483-9824-d45f" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e4b-74f8-fbd5-4e64" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Frag Grenades" hidden="false" id="3bd7-0e75-6245-c27f" type="selectionEntry" targetId="3bd9-e813-aafb-59f9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd70-76c2-0cfd-b328" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f64d-3064-0df4-665a" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>

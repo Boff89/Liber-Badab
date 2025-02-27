@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="54ff-6cb4-65fe-7ad5" name="Liber Badab" revision="35" battleScribeVersion="2.03" authorName="Boff89" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="54ff-6cb4-65fe-7ad5" name="Liber Badab" revision="36" battleScribeVersion="2.03" authorName="Boff89" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>All these rules are 100% from the lovely folks who put together Liber Badab. test</readme>
   <publications>
     <publication id="0a24-8d5a-55ca-b028" name="Liber Astartes v1.6" shortName="Main Rules" publicationDate="June 2022"/>
@@ -1322,9 +1322,9 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be9e-10d8-eab2-43b7" name="Grav Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="be9e-10d8-eab2-43b7" name="Grav-Cannon w/ Grav-Amp" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f624-296d-4165-3565" name="Grav Cannon" publicationId="0a24-8d5a-55ca-b028" page="220" hidden="false" typeId="d30e-0868-cb7e-98bb" typeName="Weapon">
+        <profile id="f624-296d-4165-3565" name="Grav-Cannon w/ Grav-Amp" publicationId="0a24-8d5a-55ca-b028" page="220" hidden="false" typeId="d30e-0868-cb7e-98bb" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">30</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">-</characteristic>
@@ -3109,9 +3109,9 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Conversion Beam Cannon" hidden="false" id="06b6-e075-cd0e-869d">
+    <selectionEntry type="upgrade" import="true" name="Conversion Beamer" hidden="false" id="06b6-e075-cd0e-869d">
       <profiles>
-        <profile name="Conversion Beam Cannon - Short Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="6789-6283-3225-3661">
+        <profile name="Conversion Beamer - Short Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="6789-6283-3225-3661">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">Up to 18&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">7</characteristic>
@@ -3119,7 +3119,7 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
             <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy, Blast (3&quot;), Blind</characteristic>
           </characteristics>
         </profile>
-        <profile name="Conversion Beam Cannon - Mid Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="49dd-d27d-c4c2-d873">
+        <profile name="Conversion Beamer - Mid Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="49dd-d27d-c4c2-d873">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">More than 18&quot;-42&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">9</characteristic>
@@ -3127,7 +3127,7 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
             <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy, Blast (3&quot;), Blind</characteristic>
           </characteristics>
         </profile>
-        <profile name="Conversion Beam Cannon - Long Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="4844-d983-192b-571c">
+        <profile name="Conversion Beamer - Long Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="4844-d983-192b-571c">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">More than 42&quot;-72&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">12</characteristic>
@@ -4235,9 +4235,9 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Heavy Conversion Beam Cannon" hidden="false" id="7c47-e2e9-dc42-e838" collective="false">
+    <selectionEntry type="upgrade" import="true" name="Heavy Conversion Beamer" hidden="false" id="7c47-e2e9-dc42-e838" collective="false">
       <profiles>
-        <profile name="Heavy Conversion Beam Cannon - Short Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="1124-c6a3-7bb0-90af" publicationId="a716-c1c4-7b26-8424" page="131">
+        <profile name="Heavy Conversion Beamer - Short Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="1124-c6a3-7bb0-90af" publicationId="a716-c1c4-7b26-8424" page="131">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">Up to 18&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">7</characteristic>
@@ -4245,7 +4245,7 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
             <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 1, Large Blast (5&quot;), Blind</characteristic>
           </characteristics>
         </profile>
-        <profile name="Heavy Conversion Beam Cannon - Mid Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="fcf4-69a0-a3c7-b5bc" publicationId="a716-c1c4-7b26-8424" page="131">
+        <profile name="Heavy Conversion Beamer - Mid Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="fcf4-69a0-a3c7-b5bc" publicationId="a716-c1c4-7b26-8424" page="131">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">More than 18&quot;-42&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">9</characteristic>
@@ -4253,7 +4253,7 @@ In addition, all models in a unit that includes a Chapter standard gain the Line
             <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 1, Large Blast (5&quot;), Blind</characteristic>
           </characteristics>
         </profile>
-        <profile name="Heavy Conversion Beam Cannon - Long Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="981f-5d4d-4f61-e366" publicationId="a716-c1c4-7b26-8424" page="131">
+        <profile name="Heavy Conversion Beamer - Long Range" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="981f-5d4d-4f61-e366" publicationId="a716-c1c4-7b26-8424" page="131">
           <characteristics>
             <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">More than 42&quot;-72&quot;</characteristic>
             <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">12</characteristic>
@@ -5382,6 +5382,29 @@ Four single Blast Shields</characteristic>
         <infoLink name="Blast" id="870a-8907-9efa-0db9" hidden="false" targetId="0329-e40f-18be-9169" type="rule"/>
         <infoLink name="Pinning" id="e34a-d60d-bec0-02eb" hidden="false" targetId="1af5-e189-a698-3034" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked Autocannons" hidden="false" id="5376-ac6e-3ffb-dff7" collective="false">
+      <profiles>
+        <profile name="Autocannon" typeId="d30e-0868-cb7e-98bb" typeName="Weapon" hidden="false" id="75d7-a61b-53ea-63d5" publicationId="0a24-8d5a-55ca-b028" page="219">
+          <characteristics>
+            <characteristic name="Range" typeId="ce84-cf4b-b4bd-043f">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="b0f9-2a83-aa51-b932">7</characteristic>
+            <characteristic name="AP" typeId="d24d-64be-92be-d248">4</characteristic>
+            <characteristic name="Type" typeId="a1ae-1a76-5a16-c8b0">Heavy 2, Rending (6+), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rending (X)" id="2f27-ca0e-6ec7-891e" hidden="false" targetId="2e92-b54a-1bc2-8b3e" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Twin-linked" id="74d2-0945-d16b-2ac1" hidden="false" targetId="6ee4-c64d-5db6-b2d9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1efb-40af-8ab1-45bf" name="The Lamenters - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1efb-40af-8ab1-45bf" name="The Lamenters - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="9505-35f5-1b51-a41f" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -285,7 +285,7 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Vindicator Siege Tank Squadron" hidden="false" id="4db8-37e2-50c8-eec1" type="selectionEntry" targetId="101f-7164-6f2f-80e2"/>
-    <entryLink import="true" name="Death Company" hidden="false" id="5803-1695-9f4a-2f52" type="selectionEntry" targetId="b151-ce24-1095-2092"/>
+    <entryLink import="true" name="Death Company (Assault Squad)" hidden="false" id="5803-1695-9f4a-2f52" type="selectionEntry" targetId="b151-ce24-1095-2092"/>
     <entryLink import="true" name="Malakim Phoros" hidden="false" id="ba3b-3a80-a574-f378" type="selectionEntry" targetId="a6b2-b473-7bdd-1d68"/>
     <entryLink import="true" name="Librarian Dreadnought" hidden="false" id="5c9e-83a1-712c-3900" type="selectionEntry" targetId="cb5e-7a1d-21b1-8d63"/>
     <entryLink import="true" name="Furioso Dreadnought" hidden="false" id="dd39-8f2c-d785-dc09" type="selectionEntry" targetId="3586-f06f-bead-cd75"/>
@@ -302,12 +302,6 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="515e-a801-797a-e31a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d7b-939b-eeee-c330" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="1adf-bcaa-f52d-2d34" collective="false" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6d7-2614-9d16-d8eb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68de-4741-b64e-ca9c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="c8b2-ca96-9731-4753" collective="false" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
@@ -354,6 +348,21 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab6-c86b-780d-acd6" includeChildSelections="false"/>
               </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="6881-5484-07f9-de18" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f17-0c96-3d8f-578c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="b151-ce24-1095-2092" childId="46f6-97cb-6c53-3044" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1545,12 +1554,6 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f9bc-0458-8d25-3334" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="3341-213f-9d02-0222" collective="false" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b53d-6db3-6187-aa23" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b413-3ae2-ddb6-56a5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="6c29-a8e4-2d7f-1553" collective="false" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f460-d93f-6312-d65b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2063,6 +2066,21 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21dd-b86e-c87c-1d80" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="2bc8-712a-df3d-7ec1" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4c4-6eee-26ec-32fc" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="3e98-175e-9970-09f3" childId="a178-aa73-132a-ce37" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="3) Bayonet" id="a5b3-fa67-32c8-5840" hidden="false" collective="false" import="true">
@@ -2148,12 +2166,6 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b846-ba15-1949-5b7f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f914-4044-2cbb-c747" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="f7b8-7228-0f97-3d90" collective="false" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="518f-7ab1-0aad-7507" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8834-a640-f7de-7ade" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="91f1-6270-da98-bf11" collective="false" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
@@ -2579,6 +2591,21 @@
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
+            </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="947f-ce5e-6f7c-bf38" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab20-2f84-48b7-8fb1" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="0008-783d-c545-5c43" childId="1619-6606-ff17-9ffc" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>

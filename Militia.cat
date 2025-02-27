@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="9bc1-29bf-9e4e-a6b8" name="Militia" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="24" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="9bc1-29bf-9e4e-a6b8" name="Militia" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="24" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="4a78-a5d8-1808-fd5f" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -453,7 +453,7 @@ Orders given from a unit with a Command Vox may be re-rolled.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="996e-fb24-a350-8749" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="7877-a9af-7651-2a6b" type="selectionEntry" targetId="1bf8-72f8-c331-6900">
@@ -3233,7 +3233,7 @@ Orders given from a unit with a Command Vox may be re-rolled.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecff-1eb4-d145-eb46" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="increment" value="20" field="7992-13c8-e552-57c1">
+                <modifier type="increment" value="15" field="7992-13c8-e552-57c1">
                   <repeats>
                     <repeat value="1" repeats="1" field="selections" scope="901f-2c1b-f651-e8a4" childId="a2dc-5717-31e0-87d6" shared="true" roundUp="false"/>
                   </repeats>

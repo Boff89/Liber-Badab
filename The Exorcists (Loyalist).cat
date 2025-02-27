@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1b10-068c-408a-8be4" name="The Exorcists - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="21" revision="5" authorName="B0ff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1b10-068c-408a-8be4" name="The Exorcists - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="21" revision="6" authorName="B0ff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink import="true" name="Anti-Aircraft Tank Battery" hidden="false" id="9537-5e31-cd30-ae58" type="selectionEntry" targetId="c5bb-fad3-cce1-180c"/>
     <entryLink import="true" name="Assault Squad" hidden="false" id="e332-49b9-2d36-e048" type="selectionEntry" targetId="b769-b066-d315-9de4"/>
@@ -282,13 +282,13 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Vindicator Siege Tank Squadron" hidden="false" id="3441-b3b2-b6a6-8bec" type="selectionEntry" targetId="101f-7164-6f2f-80e2"/>
-    <entryLink import="true" name="Enochian Guard" hidden="false" id="0aa7-5d40-0d52-9c21" type="selectionEntry" targetId="5692-e011-940e-370d">
+    <entryLink import="true" name="Enochian Guard Terminators" hidden="false" id="0aa7-5d40-0d52-9c21" type="selectionEntry" targetId="5692-e011-940e-370d">
       <categoryLinks>
         <categoryLink targetId="d471-a611-11c4-7f09" id="0636-86da-f5de-ab24" primary="true" name="Elites:"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Captain Silas Alberec" hidden="false" id="9af0-494e-4c8b-023f" type="selectionEntry" targetId="7eee-3098-ce23-69a2"/>
-    <entryLink import="true" name="Enochian Guard" hidden="false" id="8780-e794-ee55-6cea" type="selectionEntry" targetId="5692-e011-940e-370d">
+    <entryLink import="true" name="Enochian Guard Terminators" hidden="false" id="8780-e794-ee55-6cea" type="selectionEntry" targetId="5692-e011-940e-370d">
       <categoryLinks>
         <categoryLink targetId="256c-d251-7f31-271d" id="a862-a15a-3f10-809b" primary="true" name="Troops:"/>
         <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6a35-7c71-eb5d-0a71" primary="false" name="Infantry Unit Type"/>
@@ -1536,6 +1536,21 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a9d-5ed1-e072-de53" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="57a4-fbec-e8a9-c40f" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d2f-2237-f350-3003" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="f34a-5c30-6de6-63e1" childId="b281-f326-52b1-16c8" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="1.5) Each Veteran Must Select 2:" id="5f99-ed26-552b-2d49" hidden="false">
@@ -1885,12 +1900,6 @@
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="96f4-1e73-5da9-3886" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9e5-df98-4e31-8b9b" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a7d7-18ef-ef6f-b86a" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Frag Grenades" hidden="false" id="3587-4d77-9261-75a6" type="selectionEntry" targetId="3bd9-e813-aafb-59f9">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e94d-aa2c-f193-ce21" includeChildSelections="false"/>

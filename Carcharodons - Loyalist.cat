@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9ce4-f26c-82d1-7baf" name="The Carcharodons - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="19" revision="8" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9ce4-f26c-82d1-7baf" name="The Carcharodons - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="19" revision="9" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="35f7-8ef4-66d3-24e1" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -766,7 +766,7 @@
           <description>The dividing of his attacks must be declared before he attacks with any weapon</description>
         </rule>
         <rule name="The Scent of Blood" id="a401-2d7f-eade-4cbb" hidden="false">
-          <description>Should Tyberos become subject to the Rage (1) Special Rule due to the Blood Hunger Special rule, both he and any unit he has joined that are also subject to the Rage (X+1) Special Rule gain +1 Strength for the remainder of the battle.</description>
+          <description>Should Tyberos become subject to the Blooded (x) Special Rule due to the Blood Hunger Special rule, both he and any unit he has joined that are also subject to the Rage (X+1) Special Rule and gain +1 Strength for the remainder of the battle.</description>
         </rule>
       </rules>
       <selectionEntryGroups>

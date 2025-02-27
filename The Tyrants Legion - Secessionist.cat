@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b716-1994-94b8-15a7" name="The Tyrants Legion - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b716-1994-94b8-15a7" name="The Tyrants Legion - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="8758-15dc-20cb-41aa" targetId="b232-3062-241d-bf2e"/>
     <catalogueLink type="catalogue" name="Militia" id="d01a-8542-3aa3-ab32" targetId="9bc1-29bf-9e4e-a6b8"/>
@@ -462,11 +462,6 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Renegade Marauder Squad" hidden="false" id="c5e4-7b33-9cf1-6890" type="selectionEntry" targetId="d0f5-5088-e2df-468e"/>
-    <entryLink import="true" name="Legion Auxilia Cohort" hidden="false" id="8d99-096f-9709-eb75" type="selectionEntry" targetId="66e6-ec14-e055-c285">
-      <entryLinks>
-        <entryLink import="true" name="Human Auxiliary" hidden="false" id="e28c-bf9d-01a1-6a66" type="selectionEntry" targetId="b214-b5c5-fdd5-64fe"/>
-      </entryLinks>
-    </entryLink>
     <entryLink import="true" name="Defence Line" hidden="false" id="e1fb-a156-cf69-1080" type="selectionEntry" targetId="d681-7334-104f-5607"/>
     <entryLink import="true" name="Auxilia Armsmen Cadre" hidden="false" id="4932-a23d-8de5-c624" type="selectionEntry" targetId="51d3-9377-25c5-7d81">
       <entryLinks>
@@ -532,12 +527,19 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="44a4-3cae-0a40-34ac" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
       </entryLinks>
     </entryLink>
-    <entryLink import="true" name="Minotaur Heavy Artillery Tank Battery" hidden="false" id="7d1e-8fb8-32ea-7c2e" type="selectionEntry" targetId="520e-a40a-e4f1-6198"/>
+    <entryLink import="true" name="Minotaur Heavy Artillery Tank Battery" hidden="false" id="7d1e-8fb8-32ea-7c2e" type="selectionEntry" targetId="520e-a40a-e4f1-6198">
+      <rules>
+        <rule name="Support Detachment" id="aed1-9b54-fdb3-80a8" hidden="false">
+          <description>While all the models in this unit are purchased as a single Lord of War choice, they may be deployed individually on the battlefield and do not need to follow the rules for a vehicle squadron.</description>
+        </rule>
+      </rules>
+    </entryLink>
     <entryLink import="true" name="Whirlwind Mobile Artillery" hidden="false" id="5f6f-ab44-f4e7-0f9f" type="selectionEntry" targetId="2b66-226f-e1a2-c002">
       <entryLinks>
         <entryLink import="true" name="Tyrant&apos;s Legion Chapter Support" hidden="false" id="1471-28e4-ab6b-3030" type="selectionEntry" targetId="1626-2bd4-24f0-c70b"/>
       </entryLinks>
     </entryLink>
+    <entryLink import="true" name="Legion Auxilia Cohort" hidden="false" id="0ec3-7bb5-5699-27e8" type="selectionEntry" targetId="bc17-674d-4f2a-e152"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Lugft Huron" hidden="false" id="4c18-71f7-b6e4-d73a">
@@ -1317,6 +1319,22 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Krak Grenades" hidden="false" id="7fb7-7421-30ec-89f3" type="selectionEntry" targetId="e0be-9432-bcf8-d305">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a606-b60a-e3ed-c1d8" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="2" field="7992-13c8-e552-57c1">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="85c1-87b1-a06b-8645" childId="c5ca-8412-9278-f221" shared="true" roundUp="false"/>
+                    <repeat value="1" repeats="1" field="selections" scope="85c1-87b1-a06b-8645" childId="f5b1-644a-ca43-eb25" shared="true" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="1.5) 1 in 5 May Replace Bolt Pistol For:" id="d32c-e14e-166a-ec7e" hidden="false" collective="false" import="true">
@@ -1382,12 +1400,6 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="7c06-c8cc-5335-ec91" collective="false" targetId="e0be-9432-bcf8-d305" type="selectionEntry">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f674-9018-c819-f9a7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d048-c4e6-4870-db30" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Power Armour" hidden="false" id="98bc-829b-0160-57f2" collective="false" targetId="09dd-c282-03ec-ad0e" type="selectionEntry">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d4d-73c7-8f57-640f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1412,6 +1424,32 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Legion Auxilia Cohorts" hidden="false" id="bc17-674d-4f2a-e152">
+      <entryLinks>
+        <entryLink import="true" name="Legion Auxilia Cohort" hidden="false" id="ed82-c510-9501-ad72" type="selectionEntry" targetId="66e6-ec14-e055-c285">
+          <entryLinks>
+            <entryLink import="true" name="Human Auxiliary" hidden="false" id="831b-8dbc-271f-bdac" type="selectionEntry" targetId="b214-b5c5-fdd5-64fe"/>
+          </entryLinks>
+          <rules>
+            <rule name="Drown Them in Bodies!" id="dfca-e6bf-ffd7-bed2" hidden="false">
+              <description>Units with this special rule may be taken as 1-3 units per Force Organisation Chart Slot.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="49b3-98e2-741e-a66d"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e52-735e-99a5-536f"/>
+          </constraints>
+          <modifiers>
+            <modifier type="remove" value="5596-67a3-0a72-dccb" field="category"/>
+            <modifier type="remove" value="256c-d251-7f31-271d" field="category"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="5596-67a3-0a72-dccb" id="b030-9a13-2e66-8b97" primary="false" name="Compulsory Troops:"/>
+        <categoryLink targetId="256c-d251-7f31-271d" id="1009-59c6-4065-7dc3" primary="true" name="Troops:"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
