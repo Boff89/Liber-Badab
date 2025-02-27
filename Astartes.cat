@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b232-3062-241d-bf2e" name="Astartes" revision="32" battleScribeVersion="2.03" authorName="Boff89" library="true" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b232-3062-241d-bf2e" name="Astartes" revision="33" battleScribeVersion="2.03" authorName="Boff89" library="true" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="8a3e-fbcb-5cfc-3367" name="Tactical Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -898,7 +898,7 @@
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Grav Cannon" hidden="false" id="ad76-0fbe-e043-d874" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
+                    <entryLink import="true" name="Grav Cannon &amp; Grav Amp" hidden="false" id="ad76-0fbe-e043-d874" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
                       </costs>
@@ -5563,7 +5563,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88fb-3f6a-9359-45c6" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2e10-fd85-134c-490c" name="Gravis Heavy Bolter" hidden="false" collective="false" import="true" targetId="3e85-dece-bc8c-47e0" type="selectionEntry">
+            <entryLink id="2e10-fd85-134c-490c" name="Gravis Bolt Cannon" hidden="false" collective="false" import="true" targetId="3e85-dece-bc8c-47e0" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
               </costs>
@@ -6612,7 +6612,7 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc4d-f0ff-99a1-ba90" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Cerberus Missile Launcher" hidden="false" id="f859-3907-f26c-da75" type="selectionEntry" targetId="5b1a-91b2-7dfb-1b1a">
+        <entryLink import="true" name="Cerberus Launcher" hidden="false" id="f859-3907-f26c-da75" type="selectionEntry" targetId="5b1a-91b2-7dfb-1b1a">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbd7-32cd-ac1f-a6b9" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abe1-2077-730b-8410" includeChildSelections="false"/>
@@ -7056,7 +7056,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf5e-e3dd-f1e9-b4f3" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="5f67-92e0-8d2a-a7a8" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="5f67-92e0-8d2a-a7a8" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -7878,7 +7878,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97c-b9ea-1aff-eb28" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="462d-399d-e0c1-17de" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                <infoLink id="462d-399d-e0c1-17de" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -9564,7 +9564,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d4e-7f47-6f60-0d53" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="9265-2e55-4c6a-38a5" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="9265-2e55-4c6a-38a5" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
@@ -9680,7 +9680,7 @@
               <entryLinks>
                 <entryLink id="4d83-e720-b41f-1408" name="Master-crafted Autocannon" hidden="false" collective="false" import="true" targetId="4fba-11f4-d739-acfd" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="b535-8367-7ac2-24fe" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="b535-8367-7ac2-24fe" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="5"/>
@@ -9688,7 +9688,7 @@
                 </entryLink>
                 <entryLink id="06e4-ac27-ada1-ca38" name="Master-crafted Heavy Bolter" hidden="false" collective="false" import="true" targetId="74ea-8456-d505-32aa" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="780c-b343-7476-135d" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="780c-b343-7476-135d" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="5"/>
@@ -9696,7 +9696,7 @@
                 </entryLink>
                 <entryLink id="4f1f-202c-3b61-8a22" name="Master-crafted Missile Launcher" hidden="false" collective="false" import="true" targetId="9345-4836-c06c-834b" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="de11-f098-c14c-4019" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="de11-f098-c14c-4019" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -9704,7 +9704,7 @@
                 </entryLink>
                 <entryLink id="512a-996d-1f27-f874" name="Master-crafted Lascannon" hidden="false" collective="false" import="true" targetId="a902-d4fc-8ee8-ad2d" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="2ee1-1cb8-6725-6b20" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="2ee1-1cb8-6725-6b20" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
@@ -9712,7 +9712,7 @@
                 </entryLink>
                 <entryLink id="200a-682e-5329-8a2f" name="Master-crafted Multi-Melta" hidden="false" collective="false" import="true" targetId="b948-ed00-fdbb-1ee6" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="36de-3f27-4bcf-0799" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="36de-3f27-4bcf-0799" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -9720,7 +9720,7 @@
                 </entryLink>
                 <entryLink id="3ebf-9bdc-20da-3505" name="Master-crafted Plasma Cannon" hidden="false" collective="false" import="true" targetId="40b8-5ef6-66de-0eb4" type="selectionEntry">
                   <infoLinks>
-                    <infoLink id="9d31-fb72-a72c-69a5" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="9d31-fb72-a72c-69a5" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
@@ -9740,7 +9740,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7cb-db73-f2bd-f0b1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Master-Crafted" id="ed93-4d5d-9dbf-70ce" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink name="Master-crafted" id="ed93-4d5d-9dbf-70ce" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -10777,7 +10777,7 @@
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Left Arm" id="0fa3-2e7c-585b-d1d5" hidden="false" defaultSelectionEntryId="430c-05b0-efe4-ac82">
                           <entryLinks>
-                            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="430c-05b0-efe4-ac82" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="430c-05b0-efe4-ac82" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                             <entryLink import="true" name="Gravis Lascannon" hidden="false" id="a2d1-a5b8-c99d-c4f4" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -10852,7 +10852,7 @@
                                 </selectionEntryGroup>
                               </selectionEntryGroups>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="02d7-5a06-683f-bdfa" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="02d7-5a06-683f-bdfa" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -10890,7 +10890,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="16f3-8989-d798-5a9a" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="16f3-8989-d798-5a9a" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                             <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="a780-591a-f01d-d730" type="selectionEntry" targetId="6472-c32d-947c-5220">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -10922,7 +10922,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="4148-87b2-7f10-5dff" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="4148-87b2-7f10-5dff" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -11446,7 +11446,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a7-ffc6-13d4-5d00" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="ce22-7e83-eca3-4fa6" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="ce22-7e83-eca3-4fa6" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
@@ -12048,7 +12048,7 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d652-1536-8e32-423b" type="max"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="ab3b-8d38-3fe4-0331" name="Master-Crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
+                    <infoLink id="ab3b-8d38-3fe4-0331" name="Master-crafted" hidden="false" targetId="b56f-12c1-9c3e-8cea" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -12881,7 +12881,7 @@
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Left Arm" id="3076-9f75-a716-8a52" hidden="false" defaultSelectionEntryId="35af-3fb6-a565-7276">
                           <entryLinks>
-                            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="35af-3fb6-a565-7276" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="35af-3fb6-a565-7276" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                             <entryLink import="true" name="Gravis Lascannon" hidden="false" id="457c-fe3c-907e-d785" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -12956,7 +12956,7 @@
                                 </selectionEntryGroup>
                               </selectionEntryGroups>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="7963-6071-5cde-8c30" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="7963-6071-5cde-8c30" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -12994,7 +12994,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="9285-ea1b-6032-9548" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="9285-ea1b-6032-9548" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                             <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="f629-5b21-039d-3bef" type="selectionEntry" targetId="6472-c32d-947c-5220">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -13026,7 +13026,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="bc13-595b-9043-b8f9" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="bc13-595b-9043-b8f9" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -19863,7 +19863,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
       <selectionEntryGroups>
         <selectionEntryGroup name="Left Arm" id="f231-ea19-8faa-aed9" hidden="false" defaultSelectionEntryId="d1b4-8538-4f1a-79b3">
           <entryLinks>
-            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="d1b4-8538-4f1a-79b3" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="d1b4-8538-4f1a-79b3" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
             <entryLink import="true" name="Gravis Lascannon" hidden="false" id="f5df-228f-ef17-dc46" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -19938,7 +19938,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </entryLink>
-            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="8d17-25fc-ea1b-588f" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="8d17-25fc-ea1b-588f" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
               </costs>
@@ -19976,7 +19976,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="82be-5bcd-0be7-6d8d" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+            <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="82be-5bcd-0be7-6d8d" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
             <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="7886-e654-78bb-5e2c" type="selectionEntry" targetId="6472-c32d-947c-5220">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -20008,7 +20008,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="e75f-b5a7-e3cd-7838" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+            <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="e75f-b5a7-e3cd-7838" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
               </costs>
@@ -20310,7 +20310,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
               <selectionEntryGroups>
                 <selectionEntryGroup name="Left Arm" id="4389-6593-3ddc-629b" hidden="false" defaultSelectionEntryId="8fee-de57-19d0-4cf0">
                   <entryLinks>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="d4b7-d809-7466-035e" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="d4b7-d809-7466-035e" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Lascannon" hidden="false" id="e82e-5b93-464d-ee98" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -20385,7 +20385,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="72aa-61f2-4f6e-ed20" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="72aa-61f2-4f6e-ed20" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20428,7 +20428,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="d5a6-f1c9-a017-1a43" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="d5a6-f1c9-a017-1a43" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="cb60-19dd-68ff-aebb" type="selectionEntry" targetId="6472-c32d-947c-5220">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -20460,7 +20460,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="25c0-7a19-e95f-056e" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="25c0-7a19-e95f-056e" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20743,7 +20743,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
               <selectionEntryGroups>
                 <selectionEntryGroup name="Left Arm" id="08f9-b964-fc5e-b12f" hidden="false" defaultSelectionEntryId="9347-810e-6943-3a2a">
                   <entryLinks>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="27e6-def3-022a-f52d" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="27e6-def3-022a-f52d" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Lascannon" hidden="false" id="e67e-9a46-c67b-3a91" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -20818,7 +20818,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="9003-b248-e247-a416" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="9003-b248-e247-a416" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20861,7 +20861,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="031c-8044-010e-bbf6" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="031c-8044-010e-bbf6" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="c355-5b33-9a6f-a7a6" type="selectionEntry" targetId="6472-c32d-947c-5220">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -20893,7 +20893,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="2228-622f-8ab8-8ec3" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="2228-622f-8ab8-8ec3" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -21189,7 +21189,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
               <selectionEntryGroups>
                 <selectionEntryGroup name="Left Arm" id="18e5-f3be-31af-cbf2" hidden="false" defaultSelectionEntryId="4e01-8650-39e8-ec4c">
                   <entryLinks>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="3500-f5b9-ff3f-f69a" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="3500-f5b9-ff3f-f69a" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Lascannon" hidden="false" id="f34d-74e6-816c-90a1" type="selectionEntry" targetId="4e7f-7175-001b-92cd">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
@@ -21264,7 +21264,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="aabe-58f5-1c28-77fa" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="aabe-58f5-1c28-77fa" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -21313,7 +21313,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="6c67-753b-5bff-69bf" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
+                    <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="6c67-753b-5bff-69bf" type="selectionEntry" targetId="3e85-dece-bc8c-47e0"/>
                     <entryLink import="true" name="Gravis Chainfist w/ Built in Storm Bolter" hidden="false" id="e75c-8fe9-178e-aad8" type="selectionEntry" targetId="6472-c32d-947c-5220">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
@@ -21345,7 +21345,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="35"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="09dc-9392-d1f7-68e2" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+                    <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="09dc-9392-d1f7-68e2" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -26568,7 +26568,7 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
         </selectionEntryGroup>
         <selectionEntryGroup name="3) 1 in 3 May Take:" id="b4b5-be4c-c76f-de63" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Grenade Launcher" hidden="false" id="a736-d84e-0923-8419" type="selectionEntry" targetId="dadf-e7f8-f2fe-491b">
+            <entryLink import="true" name="Astartes Grenade Launcher" hidden="false" id="a736-d84e-0923-8419" type="selectionEntry" targetId="dadf-e7f8-f2fe-491b">
               <modifiers>
                 <modifier type="increment" value="1" field="8f28-2a6c-1770-d790">
                   <repeats>
@@ -27201,7 +27201,7 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="e859-9b50-0bdf-befd" type="selectionEntry" targetId="3e85-dece-bc8c-47e0">
+                <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="e859-9b50-0bdf-befd" type="selectionEntry" targetId="3e85-dece-bc8c-47e0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c0a-d539-d704-dc9d" includeChildSelections="false"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7300-a016-5f0a-f8fa" includeChildSelections="false"/>
@@ -28282,7 +28282,7 @@ All enemy models with the Chapter Tactics (X) special rule gain the Hatred (Cor
         </infoLink>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Gravis Heavy Bolter" hidden="false" id="435d-133c-2311-6a76" type="selectionEntry" targetId="3e85-dece-bc8c-47e0">
+        <entryLink import="true" name="Gravis Bolt Cannon" hidden="false" id="435d-133c-2311-6a76" type="selectionEntry" targetId="3e85-dece-bc8c-47e0">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be58-aac8-2ba1-7628" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49cf-6bda-1e4b-15c0" includeChildSelections="false"/>
@@ -28887,7 +28887,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="deda-e178-5a34-2c33" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Grav Cannon" hidden="false" id="d26b-cdb2-5ad9-5ddb" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
+            <entryLink import="true" name="Grav Cannon &amp; Grav Amp" hidden="false" id="d26b-cdb2-5ad9-5ddb" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
               </costs>
@@ -30322,7 +30322,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Grav Cannon" hidden="false" id="6a4c-9443-ee2e-e962" type="selectionEntry" targetId="be9e-10d8-eab2-43b7">
+                <entryLink import="true" name="Grav Cannon &amp; Grav Amp" hidden="false" id="6a4c-9443-ee2e-e962" type="selectionEntry" targetId="be9e-10d8-eab2-43b7">
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                   </costs>
@@ -34352,7 +34352,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a978-e7f9-f983-4840" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Gravis Multi-Melta" hidden="false" id="edbf-5c01-6a8a-bc8f" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
+        <entryLink import="true" name="Gravis Melta Cannon" hidden="false" id="edbf-5c01-6a8a-bc8f" type="selectionEntry" targetId="e93b-35f2-4b22-1f85">
           <modifiers>
             <modifier type="set" value="2x Sponson Gravis Melta Cannon" field="name"/>
           </modifiers>
@@ -36104,6 +36104,12 @@ In addition, the Caestus has an invulnerable save of 5+ against any attacks agai
       <entryLinks>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="07e1-9a4c-2aed-893b" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
       </entryLinks>
+      <rules>
+        <rule name="Aerial Weapons Platform" id="47ef-9bb4-2b32-bbd0" hidden="false">
+          <description>A Lumbering model with this special rule may fire all of its weapons in the shooting phase as if it was a Super-Heavy Vehicle. In addition to this, it may (contrary to the rulebook) make a Return Fire action with any turret
+mounted weapons against any model with the Flyer Sub-Type that fired at it.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Thunderhawk Heavy Transporter" hidden="false" id="4d1c-ed2e-71d7-8bb5">
       <profiles>
@@ -36365,6 +36371,10 @@ on a model with this special rule, Embarking and Disembarking as per the normal 
         </rule>
         <rule name="Thunderhawk Transporter" id="8f79-cc8e-37da-3c52" hidden="false">
           <description>The Thunderhawk Transporter has 2 Auxiliary Vehicle Bays. They can combine them to bring a single 8 (or less) HP vehicle</description>
+        </rule>
+        <rule name="Aerial Weapons Platform" id="4f0a-5226-acab-c814" hidden="false">
+          <description>A Lumbering model with this special rule may fire all of its weapons in the shooting phase as if it was a Super-Heavy Vehicle. In addition to this, it may (contrary to the rulebook) make a Return Fire action with any turret
+mounted weapons against any model with the Flyer Sub-Type that fired at it.</description>
         </rule>
       </rules>
       <entryLinks>
@@ -38429,7 +38439,7 @@ on a model with this special rule, Embarking and Disembarking as per the normal 
         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="10"/>
       </costs>
       <infoLinks>
-        <infoLink name="Master-Crafted" id="557f-4fa0-867d-63d1" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
+        <infoLink name="Master-crafted" id="557f-4fa0-867d-63d1" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="928c-867b-c6d3-e7f8" includeChildSelections="false"/>
@@ -38500,7 +38510,7 @@ on a model with this special rule, Embarking and Disembarking as per the normal 
       </profiles>
       <infoLinks>
         <infoLink name="Two-handed" id="0946-6335-899d-5502" hidden="false" type="rule" targetId="9e82-73a9-0304-0352"/>
-        <infoLink name="Master-Crafted" id="7c83-a238-99ea-6f4f" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
+        <infoLink name="Master-crafted" id="7c83-a238-99ea-6f4f" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Encarmine Axe" hidden="false" id="f0d5-0132-1152-ca2e">
@@ -38516,7 +38526,7 @@ on a model with this special rule, Embarking and Disembarking as per the normal 
       </profiles>
       <infoLinks>
         <infoLink name="Two-handed" id="b1fd-50da-5c0d-1e7d" hidden="false" type="rule" targetId="9e82-73a9-0304-0352"/>
-        <infoLink name="Master-Crafted" id="e1e4-0f0e-be65-2b69" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
+        <infoLink name="Master-crafted" id="e1e4-0f0e-be65-2b69" hidden="false" type="rule" targetId="b56f-12c1-9c3e-8cea"/>
         <infoLink name="Unwieldy" id="729d-ac94-5d50-0c81" hidden="false" type="rule" targetId="7efd-92ce-72e1-132e"/>
       </infoLinks>
     </selectionEntry>
