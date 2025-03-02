@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b716-1994-94b8-15a7" name="The Tyrants Legion - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b716-1994-94b8-15a7" name="The Tyrants Legion - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="8758-15dc-20cb-41aa" targetId="b232-3062-241d-bf2e"/>
     <catalogueLink type="catalogue" name="Militia" id="d01a-8542-3aa3-ab32" targetId="9bc1-29bf-9e4e-a6b8"/>
@@ -363,9 +363,9 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Tactical Squad" hidden="false" id="f6e8-d471-c459-d460" collective="false" targetId="8a3e-fbcb-5cfc-3367" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink targetId="fce1-b4a6-3356-6247" id="9df6-ec37-c45f-c871" primary="false" name="Astra Claw Tactical"/>
-      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Astral Tactical" hidden="false" id="3709-3109-620c-de9f" type="selectionEntry" targetId="6c97-d098-f56d-aa3c"/>
+      </entryLinks>
     </entryLink>
     <entryLink import="true" name="Terminator Company Captain" hidden="false" id="99f5-9f16-5c44-2843" collective="false" targetId="925a-3e84-4760-fd4c" type="selectionEntry">
       <entryLinks>
@@ -539,7 +539,11 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
         <entryLink import="true" name="Tyrant&apos;s Legion Chapter Support" hidden="false" id="1471-28e4-ab6b-3030" type="selectionEntry" targetId="1626-2bd4-24f0-c70b"/>
       </entryLinks>
     </entryLink>
-    <entryLink import="true" name="Legion Auxilia Cohort" hidden="false" id="0ec3-7bb5-5699-27e8" type="selectionEntry" targetId="bc17-674d-4f2a-e152"/>
+    <entryLink import="true" name="Legion Auxilia Cohorts" hidden="false" id="0ec3-7bb5-5699-27e8" type="selectionEntry" targetId="bc17-674d-4f2a-e152">
+      <entryLinks>
+        <entryLink import="true" name="Human Auxiliary" hidden="false" id="14f4-20d0-ac1c-c9b9" type="selectionEntry" targetId="b214-b5c5-fdd5-64fe"/>
+      </entryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Lugft Huron" hidden="false" id="4c18-71f7-b6e4-d73a">
@@ -1428,9 +1432,6 @@ In addition, if this vehicle conveys any victory points to the opposing player, 
     <selectionEntry type="upgrade" import="true" name="Legion Auxilia Cohorts" hidden="false" id="bc17-674d-4f2a-e152">
       <entryLinks>
         <entryLink import="true" name="Legion Auxilia Cohort" hidden="false" id="ed82-c510-9501-ad72" type="selectionEntry" targetId="66e6-ec14-e055-c285">
-          <entryLinks>
-            <entryLink import="true" name="Human Auxiliary" hidden="false" id="831b-8dbc-271f-bdac" type="selectionEntry" targetId="b214-b5c5-fdd5-64fe"/>
-          </entryLinks>
           <rules>
             <rule name="Drown Them in Bodies!" id="dfca-e6bf-ffd7-bed2" hidden="false">
               <description>Units with this special rule may be taken as 1-3 units per Force Organisation Chart Slot.</description>

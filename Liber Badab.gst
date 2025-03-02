@@ -4965,11 +4965,11 @@ In addition to this you may not have more units taken as Astral Claws Chapter Su
         <categoryLink targetId="852b-f6b0-b8dd-1609" id="6698-1f47-cce2-6089" primary="true" name="Chapter"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Tyrant&apos;s Legion Chapter Support" hidden="false" id="1626-2bd4-24f0-c70b">
+    <selectionEntry type="upgrade" import="true" name="Tyrant&apos;s Legion Chapter Support (Add more Aux)" hidden="false" id="1626-2bd4-24f0-c70b">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03bd-2589-5ce9-f64b" includeChildSelections="false"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f364-c7a6-c833-514a" includeChildSelections="false"/>
-        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="d71b-8343-5214-75fc" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="2014-beeb-7e16-8d67" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <rules>
         <rule name="Astral Claws Chapter Support" id="dd2f-5c5a-5d2e-c731" hidden="false">
@@ -4982,23 +4982,23 @@ In addition to this you may not have more units taken as Astral Claws Chapter Su
             <condition type="lessThan" value="1" field="selections" scope="force" childId="9647-0f58-d518-1e48" shared="true"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="1" field="d71b-8343-5214-75fc">
+        <modifier type="increment" value="1" field="2014-beeb-7e16-8d67">
           <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="force" childId="b214-b5c5-fdd5-64fe" shared="true" roundUp="false" includeChildSelections="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b214-b5c5-fdd5-64fe" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
           </repeats>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Tactical Squad to Unlock" hidden="false" id="d800-0482-a1b5-6ab9">
+        <selectionEntry type="upgrade" import="true" name="Take X More Tacticals to Unlock" hidden="false" id="d800-0482-a1b5-6ab9">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c44-2d0f-2c33-f578" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18be-fef1-0467-ec89" includeChildSelections="false"/>
             <constraint type="max" value="0" field="selections" scope="force" shared="true" id="df03-e67b-7469-ea45" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
           <modifiers>
-            <modifier type="set" value="1" field="df03-e67b-7469-ea45">
+            <modifier type="increment" value="1" field="df03-e67b-7469-ea45">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="fce1-b4a6-3356-6247" shared="true" roundUp="false" includeChildSelections="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="6c97-d098-f56d-aa3c" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -5410,6 +5410,12 @@ Four single Blast Shields</characteristic>
       <infoLinks>
         <infoLink name="Master of the Chapter" id="d58a-a0a3-9ac1-8ac5" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Astral Tactical" hidden="false" id="6c97-d098-f56d-aa3c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b87-4c6e-c382-0b8a" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9794-a7df-df4a-2f1a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
