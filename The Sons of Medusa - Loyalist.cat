@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="f2b2-7980-ad85-fbd0" name="The Sons of Medusa - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="f2b2-7980-ad85-fbd0" name="The Sons of Medusa - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="5414-cbea-4a25-443f" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -935,6 +935,12 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="b3fe-81ba-162c-653e" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="91a6-5b4e-455e-5a10" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f557-84f9-d22b-9672" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9d6-2692-e204-99b9" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="0) Warlord Trait" id="082d-cc3b-f241-2dcf" hidden="false">
@@ -980,7 +986,6 @@
             <modifier type="set" value="Battlesmith (2+)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Master of the Chapter" id="5405-73c2-e52d-edb0" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="Bulky (X)" id="ea1c-e932-1fde-2f2c" hidden="false" type="rule" targetId="80f9-973b-28f9-020d">
           <modifiers>
             <modifier type="set" value="Bulky (3)" field="name"/>

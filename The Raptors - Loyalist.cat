@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1e0f-6909-314c-1f70" name="The Raptors - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1e0f-6909-314c-1f70" name="The Raptors - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="e115-b0e9-f9fc-7d09" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -344,12 +344,17 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b1d-a870-276f-4640" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="b5b5-e4ec-bfd0-13a9" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcc0-409e-5097-ecd9" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8aa7-0e4e-aa35-399a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Precision Shots (X)" id="197f-e464-5e63-97d9" hidden="false" type="rule" targetId="1551-4eda-0ca9-af27"/>
         <infoLink name="Scout" id="e877-217b-9c25-9f5d" hidden="false" type="rule" targetId="aadf-0b76-d0cb-a098"/>
         <infoLink name="Infiltrate" id="4bff-47e8-f336-00f7" hidden="false" type="rule" targetId="1020-e294-481b-fb88"/>
-        <infoLink name="Master of the Chapter" id="89c8-9ba4-0fe4-1ddf" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="Independent Character" id="e61a-986c-ad13-ef31" hidden="false" type="rule" targetId="20ff-8476-332b-4530"/>
         <infoLink name="And they Shall Know No Fear" id="5f7f-a712-8f07-d1bc" hidden="false" type="rule" targetId="ce91-e2c8-ffa1-14a8"/>
       </infoLinks>

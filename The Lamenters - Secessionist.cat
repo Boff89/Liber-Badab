@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1efb-40af-8ab1-45bf" name="The Lamenters - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1efb-40af-8ab1-45bf" name="The Lamenters - Secessionist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="9505-35f5-1b51-a41f" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -819,6 +819,12 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Warlord Traits" hidden="false" id="dc7e-7f70-b361-50ea" type="selectionEntryGroup" targetId="965b-0785-f059-fa03"/>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="956e-439e-3fb9-cc39" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b41d-f502-78cd-4dec" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b18-4a5a-0355-cea2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Glaive Encarmine" hidden="false" id="a96e-17e8-b36f-9278">
@@ -878,7 +884,6 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink name="Master of the Chapter" id="af1d-df89-5e45-337e" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="Independent Character" id="2a04-34ed-f1f0-4773" hidden="false" type="rule" targetId="20ff-8476-332b-4530"/>
         <infoLink name="And they Shall Know No Fear" id="ff85-114f-c425-b646" hidden="false" type="rule" targetId="ce91-e2c8-ffa1-14a8"/>
         <infoLink name="Stubborn" id="9eef-6690-a1a6-d2ca" hidden="false" type="rule" targetId="d995-66b1-9d51-7873"/>
@@ -1586,7 +1591,7 @@
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Grav Cannon" hidden="false" id="ccc1-fd73-f9fb-bd9d" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
+                <entryLink import="true" name="Grav-Cannon w/ Grav-Amp" hidden="false" id="ccc1-fd73-f9fb-bd9d" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
                   </costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="fced-6dcf-7d19-ceba" name="The Minotaurs - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="3" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="fced-6dcf-7d19-ceba" name="The Minotaurs - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="4" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink import="true" name="Anti-Aircraft Tank Battery" hidden="false" id="5f06-dfec-665c-f4af" type="selectionEntry" targetId="c5bb-fad3-cce1-180c"/>
     <entryLink import="true" name="Assault Squad" hidden="false" id="3fca-3cb3-4af8-9ddd" type="selectionEntry" targetId="b769-b066-d315-9de4"/>
@@ -978,11 +978,16 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="6e79-3d99-d87f-9184" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="99f9-6687-c6f3-8212" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ebc-cbf9-acb7-21ca" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5d9-42e6-f46a-c174" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Eternal Warrior" id="9c11-0eb9-4fb0-842a" hidden="false" type="rule" targetId="558c-aa67-7345-570d"/>
         <infoLink name="Deep Strike" id="d6ab-4964-a730-875b" hidden="false" type="rule" targetId="e8a1-d7ca-d389-f158"/>
-        <infoLink name="Master of the Chapter" id="3e1f-fc50-5af5-828f" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="And they Shall Know No Fear" id="6c92-ea50-098a-5e31" hidden="false" type="rule" targetId="ce91-e2c8-ffa1-14a8"/>
         <infoLink name="Stubborn" id="7881-5737-887c-e390" hidden="false" type="rule" targetId="d995-66b1-9d51-7873"/>
       </infoLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b232-3062-241d-bf2e" name="Astartes" revision="34" battleScribeVersion="2.03" authorName="Boff89" library="true" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b232-3062-241d-bf2e" name="Astartes" revision="35" battleScribeVersion="2.03" authorName="Boff89" library="true" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="8a3e-fbcb-5cfc-3367" name="Tactical Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -913,7 +913,7 @@
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Grav Cannon" hidden="false" id="ad76-0fbe-e043-d874" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
+                    <entryLink import="true" name="Grav-Cannon w/ Grav-Amp" hidden="false" id="ad76-0fbe-e043-d874" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
                       </costs>
@@ -10860,7 +10860,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="5d29-1bb4-21a6-debc" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                            <entryLink import="true" name="Conversion Beamer" hidden="false" id="5d29-1bb4-21a6-debc" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -10914,7 +10914,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="1804-1e69-6c88-0be6" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                            <entryLink import="true" name="Conversion Beamer" hidden="false" id="1804-1e69-6c88-0be6" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -11283,9 +11283,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="7992-13c8-e552-57c1" scope="roster" value="1000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                             <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ede4-3265-080b-2f3a" type="atLeast"/>
                             <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="925a-3e84-4760-fd4c" type="atLeast"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="15d0-0b20-0922-ab4c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -12964,7 +12964,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="1e5b-4c9b-7d86-74ab" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                            <entryLink import="true" name="Conversion Beamer" hidden="false" id="1e5b-4c9b-7d86-74ab" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -13018,7 +13018,7 @@
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                               </costs>
                             </entryLink>
-                            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="e738-713a-e195-a06e" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                            <entryLink import="true" name="Conversion Beamer" hidden="false" id="e738-713a-e195-a06e" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                               <costs>
                                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                               </costs>
@@ -13373,9 +13373,9 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="7992-13c8-e552-57c1" scope="roster" value="1000" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="lessThan"/>
                             <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ede4-3265-080b-2f3a" type="atLeast"/>
                             <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="925a-3e84-4760-fd4c" type="atLeast"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="15d0-0b20-0922-ab4c" shared="true" includeChildSelections="true" includeChildForces="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -20011,7 +20011,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="7c0b-a6c7-c2cf-2131" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+            <entryLink import="true" name="Conversion Beamer" hidden="false" id="7c0b-a6c7-c2cf-2131" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
               </costs>
@@ -20065,7 +20065,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="40be-8d6a-8125-c581" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+            <entryLink import="true" name="Conversion Beamer" hidden="false" id="40be-8d6a-8125-c581" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
               </costs>
@@ -20458,7 +20458,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="446b-3b8a-9c1d-34a8" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="446b-3b8a-9c1d-34a8" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20517,7 +20517,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="e3fc-1d12-08ec-18e2" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="e3fc-1d12-08ec-18e2" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20891,7 +20891,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="3580-1501-31bc-9f0d" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="3580-1501-31bc-9f0d" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -20950,7 +20950,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="37e3-859f-130a-9393" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="37e3-859f-130a-9393" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -21372,7 +21372,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="e6d8-9c9d-1ecc-13c0" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="e6d8-9c9d-1ecc-13c0" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -21437,7 +21437,7 @@ The Techmarine cannot ever leave the unit it was assigned to. If that unit is re
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Conversion Beam Cannon" hidden="false" id="5d5c-9227-0029-b9bf" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
+                    <entryLink import="true" name="Conversion Beamer" hidden="false" id="5d5c-9227-0029-b9bf" type="selectionEntry" targetId="06b6-e075-cd0e-869d">
                       <costs>
                         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                       </costs>
@@ -29062,7 +29062,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="deda-e178-5a34-2c33" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Grav Cannon" hidden="false" id="d26b-cdb2-5ad9-5ddb" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
+            <entryLink import="true" name="Grav-Cannon w/ Grav-Amp" hidden="false" id="d26b-cdb2-5ad9-5ddb" collective="false" targetId="be9e-10d8-eab2-43b7" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
               </costs>
@@ -30521,7 +30521,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="15"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Grav Cannon" hidden="false" id="6a4c-9443-ee2e-e962" type="selectionEntry" targetId="be9e-10d8-eab2-43b7">
+                <entryLink import="true" name="Grav-Cannon w/ Grav-Amp" hidden="false" id="6a4c-9443-ee2e-e962" type="selectionEntry" targetId="be9e-10d8-eab2-43b7">
                   <costs>
                     <cost name="Pts" typeId="7992-13c8-e552-57c1" value="20"/>
                   </costs>
@@ -31646,7 +31646,7 @@ In addition when hovering, a Storm Talon gunship receives the Shrouded (6+) spec
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="d17f-d868-d244-b44a" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry">
+            <entryLink id="d17f-d868-d244-b44a" name="Heavy Conversion Beamer" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="7992-13c8-e552-57c1" value="25"/>
               </costs>

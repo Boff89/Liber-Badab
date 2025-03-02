@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="47de-6963-c3b0-1154" name="The Red Scorpions - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="47de-6963-c3b0-1154" name="The Red Scorpions - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="23" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="5574-3e98-425c-16c6" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -951,6 +951,12 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="663c-f53f-e761-fd8d" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="845c-67ea-ac01-466c" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ea4-95d9-1918-a129" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d08a-0488-3120-a633" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="The Blade of the Scorpion" hidden="false" id="c588-527a-a77e-7aab">
@@ -999,7 +1005,6 @@ Note this unit must be painted up in the correct colours as its chosen Chapter T
         </rule>
       </rules>
       <infoLinks>
-        <infoLink name="Master of the Chapter" id="e4c6-7136-5bba-272c" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="And they Shall Know No Fear" id="2cfb-87d5-9829-c647" hidden="false" type="rule" targetId="ce91-e2c8-ffa1-14a8"/>
         <infoLink name="Eternal Warrior" id="24d1-5af3-201c-d50e" hidden="false" type="rule" targetId="558c-aa67-7345-570d"/>
         <infoLink name="Bulky (X)" id="37c4-8f54-3851-8bce" hidden="false" type="rule" targetId="80f9-973b-28f9-020d">

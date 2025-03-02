@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9ce4-f26c-82d1-7baf" name="The Carcharodons - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="19" revision="9" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9ce4-f26c-82d1-7baf" name="The Carcharodons - Loyalist" gameSystemId="54ff-6cb4-65fe-7ad5" gameSystemRevision="19" revision="10" authorName="Boff89" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Astartes" id="35f7-8ef4-66d3-24e1" targetId="b232-3062-241d-bf2e"/>
   </catalogueLinks>
@@ -714,7 +714,12 @@
         </entryLink>
         <entryLink import="true" name="Master of the Company" hidden="false" id="277e-db8f-54b6-0239" type="selectionEntry" targetId="7fa0-6f89-c10e-6e29"/>
         <entryLink import="true" name="Chapter Tactics" hidden="false" id="02d3-10cd-41d9-ec32" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
-        <entryLink import="true" name="Chapter Tactics" hidden="false" id="2352-649b-8211-51a8" type="selectionEntry" targetId="f2ba-4369-e687-0f22"/>
+        <entryLink import="true" name="Chapter Master" hidden="false" id="51f0-7c73-a4ea-638a" type="selectionEntry" targetId="15d0-0b20-0922-ab4c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d67-44dd-5658-c799" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2296-8b8d-737a-1653" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Hunger &amp; Slake" hidden="false" id="94a1-8dfd-948a-1f07">
@@ -814,7 +819,6 @@
         <categoryLink targetId="fdfb-b86a-0fcd-1668" id="3da7-9bd6-5a84-9299" primary="false" name="Unique"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Master of the Chapter" id="f9b8-421c-7d01-39e7" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
         <infoLink name="And they Shall Know No Fear" id="bc2d-5a59-0c48-2713" hidden="false" type="rule" targetId="ce91-e2c8-ffa1-14a8"/>
         <infoLink name="Independent Character" id="07aa-c77d-7151-63e6" hidden="false" type="rule" targetId="20ff-8476-332b-4530"/>
         <infoLink name="Bulky (X)" id="4cd2-fc5b-dfa1-2fec" hidden="false" type="rule" targetId="80f9-973b-28f9-020d">

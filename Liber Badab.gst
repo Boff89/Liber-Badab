@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="54ff-6cb4-65fe-7ad5" name="Liber Badab" revision="36" battleScribeVersion="2.03" authorName="Boff89" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="54ff-6cb4-65fe-7ad5" name="Liber Badab" revision="37" battleScribeVersion="2.03" authorName="Boff89" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <readme>All these rules are 100% from the lovely folks who put together Liber Badab. test</readme>
   <publications>
     <publication id="0a24-8d5a-55ca-b028" name="Liber Astartes v1.6" shortName="Main Rules" publicationDate="June 2022"/>
@@ -5406,6 +5406,11 @@ Four single Blast Shields</characteristic>
         <cost name="Pts" typeId="7992-13c8-e552-57c1" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chapter Master" hidden="false" id="15d0-0b20-0922-ab4c">
+      <infoLinks>
+        <infoLink name="Master of the Chapter" id="d58a-a0a3-9ac1-8ac5" hidden="false" type="rule" targetId="9c0a-081e-93fa-d4d7"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="f45b-0a73-d710-3a6c" name="Power Weapon" hidden="false" collective="false" import="true">
@@ -6204,7 +6209,7 @@ Twin-linked Template weapons are fired just like a single weapon, but must re-ro
       <description>Independent Characters can join other units. They cannot, however, join units that contain Vehicles, Dreadnoughts, Automata or any model with the Monstrous sub-type (unless the Independent Character also has that Unit Type or sub-type). They can join other Independent Characters though to form a powerful multi-character unit.</description>
     </rule>
     <rule id="9c0a-081e-93fa-d4d7" name="Master of the Chapter" publicationId="0a24-8d5a-55ca-b028" page="10" hidden="false">
-      <description>Selecting a model with the Master of the Chapter special rule as the army&apos;s Warlord will grant the controlling player access to a number of Company Level Deployments.</description>
+      <description>A Model with this special rule also has the Master of the Company Special rule. In addition to that, if this model is fielded it must be a part of the Primary Detachment and must be the armies Warlord. Due to the truly legendary prospect of a Chapter Master taking to the field of battle, this rule also allows the Primary Detachment to take an additional Elites choice above what is usually allowed.</description>
     </rule>
     <rule name="Grav-Ripple" id="2c26-9da5-0b6b-3133" hidden="false">
       <description>A weapon with the Grav-Ripple effect rolls to hit as normal. To wound it needs whatever the targets Armour save is (Eg if hitting a Space Marine with an armour save of 3+, you would require a 3+ to wound the Marine). Models wounded by a weapon with the Grav-Ripple trait do not make a normal saving through, but instead make save based on their Toughness. EG if a Guardsmen, at Toughness 3 is wounded by a Grav-Ripple Weapon, they will save the wound on a 3+</description>
