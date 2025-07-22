@@ -11,15 +11,15 @@ Liber Badab - A Badab War supplement for 30k The Age of Darkness
 
 ## Overview ##
 
-__What's this?__
+Created using the REAL LibreBadab's created by Nick and his team. These can be found here: 
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+https://drive.google.com/drive/folders/1fPGlHOPNPlfkmNB3zhcqydh1ofOs-Znx
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+*Do not be duped by the stolen PDF's taken by 2 nefarious individuals who have begun reposting it as their own work* 
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+The Facebook group can be found here:
+
+https://www.facebook.com/share/g/1H61m9FZbX/
 
 __I found a bug!__ / *I have another request*
 
